@@ -15,13 +15,9 @@ public class Main {
 	String vehicleType=sc.next();
 	System.out.println("Enter the price of vehicle :");
 	double price=sc.nextDouble();
-	Vehicle v=new Vehicle(  vehicleNumber, modelName, vehicleType, price) ;
-	double loanAmount=v.issueLoan();
-	double insuranceAmount=v.takeInsurance();
-	
-	System.out.println(" Loan issuing for Vehicle number "+v.getVehicleNumber()+" is "+loanAmount+" of type "+v.getVehicleType());
-    
-	System.out.println(" Insurance Amount eligible for Vehicle number "+v.getVehicleNumber()+" is "+insuranceAmount );
-
+	 
+		/*Write code here to Call issueLoan() method to find loan amount and also call takeInsurance() method to find insurance amount */ 
+	 
+	 /*Dispaly all deatils Loan and Insurance amount related to respected vehicle*/
 }
 }
